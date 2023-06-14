@@ -265,7 +265,7 @@ span{
     margin-top: -152px;
    
 }
-.col-3{
+.feature .col-3{
     background:  linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
     width: 26%;
@@ -281,7 +281,7 @@ span{
 
 
 
-.col-3 h2{
+.feature .col-3 h2{
     background: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -290,15 +290,15 @@ span{
     font-size: 22px;
     
 }
-.col-3 p{
+.feature .col-3 p{
     background: none;
     font-family: 'Poppins', sans-serif;
-    
+     text-align: center;
     font-size: 15px;
     line-height: 25px;
     
 }
-.col-3 i{
+.feature .col-3 i{
     background: none;
     font-size: 40px;
     margin-top: 25px;
@@ -315,6 +315,8 @@ span{
    
 }
 
+
+
 .iwhat-i-do .col-3:hover{
     background: linear-gradient(145deg, #6E67CC, #D96483);
     color: #ffffff;
@@ -330,6 +332,107 @@ span{
     background: none;
 }
 
+
+
+
+/* what we de */
+
+
+
+
+.what-i-do{
+    margin-top: 120px; margin-bottom: 50px;
+   
+    
+}
+
+.what-i-do h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+    color: red;
+}
+
+.what-i-do h1{
+    font-size: 50px;
+    line-height: 62px;
+    margin-bottom: 22px;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+}
+.what-i-do h3{
+    color: red;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 8px;
+    margin-top: 50px;
+    
+}
+.what-i-do h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.col-3{
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    width: 25%;
+    padding: 21px 20px 60px 45px;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+}
+
+
+
+.what-i-do .col-3 h2{
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: left;
+    
+}
+.what-i-do .col-3 p{
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    
+}
+.what-i-do .col-3 i{
+    background: none;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #FF0652;
+    text-align: left;
+   
+    
+}
+
+
+
+
+.iwhat-i-do .col-3:hover{
+    background: linear-gradient(145deg, #6E67CC, #D96483);
+    color: #ffffff;
+    transform: .4s;
+}
+
+
+
+
+/* what we do */
 
 /*  popular product section */
 
@@ -590,6 +693,177 @@ span{
 }
 
 
+
+
+/* resumeeee */
+
+.my-resume h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    color: red;
+}
+.resume-details h1{
+    text-align: left;
+  
+}
+.resume-details h3{
+    text-align: left;
+    
+}
+.my-resume h1{
+    font-size: 50px;
+    line-height: 62px;
+    margin-bottom: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+.my-resume{
+    margin-bottom: 100px;
+    margin-top: 160px;
+}
+
+.resume-menu{
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+
+
+
+
+
+.resume-menu .col-4{
+    width: 25%;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    padding: 25px 10px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+
+.education h4{
+    color: red;
+    text-align: center;
+   
+}
+.resume-menu  .education{
+    border-radius: 10px;
+    box-shadow:  5px 5px 15px #acb7c7, -5px -5px 15px #ffffff;
+    z-index: 3;
+}
+h4{
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.resume-menu .col-4:hover {
+    border-radius: 10px;
+    box-shadow:  5px 5px 15px #acb7c7, -5px -5px 15px #ffffff;
+    color: red;
+    transition: .4s;
+    top: -2px;
+
+}
+
+/* education details */
+
+
+.education-details{
+    margin-top: 50px;
+}
+.education-year .heading{
+    text-align: left;
+}
+
+.education-year h1{
+   font-size: 40PX;
+   margin-top: -10PX;
+   margin-bottom: -30px;
+}
+.education-details h2{
+
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    /* padding: 50px 0px 40px 50px; */
+    font-size: 22px;
+    margin-bottom: 5PX;
+}
+
+.education-details p{
+    text-align: left;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 0px;
+
+    
+}
+.cgpa {
+    width: 66px;
+    text-align: center;
+    margin-left:370px ;
+    margin-top: -40px;
+    border-radius: 5px;
+    color: #FF0652;
+    font-weight: 500;
+    border: 1px solid rgb(227, 205, 85);
+    padding-left: 10PX;
+
+}
+
+.VARSITY{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+}
+.education-details .strate-line{
+    width: 450PX;
+    background: #b7babd;
+    margin-top: 30px;
+    
+    
+}
+
+.education-details .col-2{
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    width: 33%;
+    padding: 60px 120px 60px 60px;
+    border-radius: 10px;
+
+}  
+.col-2 p{
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+   
+}
+.education-details .col-2:hover{
+    background: linear-gradient(145deg, #6E67CC, #D96483);
+    color: #ffffff;
+    transition: .4s;
+}
+
+
+
+
+
+
 /* footer */
 .footer{
     background: #212121;color: #e8e8e8;
@@ -630,4 +904,8 @@ span{
     margin-top: 10px;
     padding-right: 10px;
     color: #dddddd;
+}
+
+.secend-what-i-do{
+   margin-top: -20px;
 }
